@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semana do zero ao programador contratado - Magick IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/layout.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="./src/imagens/logo.png" alt="Logo MagickIA" />
+    </header>
+    <main class="conteiner">
+      <h1 class="produtos">Produtos</h1>
+      <div class="filtros">
+        <div class="categorias-cartas">
+          <label for="categoria">Categoria</label>
+          <select id="categoria" class="categoria">
+            <option value="">Selecione uma carta</option>
+            <option value="Comum">Comum</option>
+            <option value="Rara">Rara</option>
+            <option value="Epica">Épica</option>
+          </select>
+        </div>
+        <div class="preco-cartas">
+          <label for="preco">Preco maximo (R$)</label>
+          <input type="text" id="preco" class="preco" placeholder="R$ 0,00" />
+        </div>
+        <button class="btn-filtrar">Filtrar</button>
+      </div>
+      <ul class="cartas">
+        <li class="carta" data-categoria="Epica" data-preco="3000">
+          <img src="./src/imagens/carta-arkanon.png" alt="" />
+          <div class="Informacoes">
+            <h2>Arkanon</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">Preço: R$ 3.000,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+
+        <li class="carta" data-categoria="Epica" data-preco="4000">
+          <img src="./src/imagens/carta-lymara.png" alt="" />
+          <div class="Informacoes">
+            <h2>Lymara</h2>
+            <span class="categoria">Categoria: Épica</span>
+            <span class="preco">Preço: R$ 4.000,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Comum" data-preco="800">
+          <img src="./src/imagens/carta-kaelthar.png" alt="" />
+          <div class="Informacoes">
+            <h2>Kaelthar</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">Preço: R$ 800,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Rara" data-preco="1500">
+          <img src="./src/imagens/carta-maldrik.png" alt="" />
+          <div class="Informacoes">
+            <h2>Maldrik</h2>
+            <span class="categoria">Categoria: Rara</span>
+            <span class="preco">Preço: R$ 1.500,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Comum" data-preco="600">
+          <img src="./src/imagens/carta-drahven.png" alt="" />
+          <div class="Informacoes">
+            <h2>Drahven</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">Preço: R$ 600,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+        <li class="carta" data-categoria="Comum" data-preco="400">
+          <img src="./src/imagens/carta-nyxsombra.png" alt="" />
+          <div class="Informacoes">
+            <h2>Nyxsombra</h2>
+            <span class="categoria">Categoria: Comum</span>
+            <span class="preco">Preço: R$ 400,00</span>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <footer class="rodape">
+      <p>© 2025 Magick IA. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
