@@ -111,11 +111,10 @@ select {
 }
 
 .Informacoes .preco {
-    font-size: large;
+  font-size: large;
   font-weight: 700;
   color: rgb(129, 192, 66);
 }
-
 
 /* Botão de compra */
 .btn-comprar {
@@ -140,16 +139,4 @@ select {
   padding: 20px;
   background-color: #0e0027;
   color: white;
-}
-
-/* Responsividade */
-@media (max-width: 600px) {
-  .filtros {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cartas {
-    grid-template-columns: 1fr;
-  }
 }
