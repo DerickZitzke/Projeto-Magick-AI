@@ -43,3 +43,31 @@ O usuário pode filtrar cartas por **categoria** e **preço máximo**, visualiza
 
 ## 📂 Estrutura do Projeto
 
+📦 magick-ia
+┣ 📂 src
+┃ ┣ 📂 css
+┃ ┃ ┣ 📜 reset.css
+┃ ┃ ┗ 📜 estilos.css
+┃ ┣ 📂 imagens
+┃ ┗ 📂 js
+┃ ┗ 📜 index.js
+┣ 📜 index.html
+┗ 📜 README.md
+
+---
+
+## 🎯 Como Usar
+
+1. **Clone este repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/magick-ia.git
+Abra o index.html no seu navegador
+
+Filtre e compre cartas mágicas!
+
+📜 Licença
+Este projeto está sob a licença MIT.
+Sinta-se livre para usar, modificar e compartilhar.
+
+💡 Desenvolvido com magia e código!
+
