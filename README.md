@@ -1,6 +1,6 @@
 # 🪄 Magick IA - Loja de Cartas Online
 
-![Logo MagickIA](./src/imagens/logo.png)
+![Logo MagickIA](.PROJETO-MAGICK-AI/src/imagens/logo.png)
 
 Bem-vindo ao **Magick IA**!  
 Este projeto foi desenvolvido para demonstrar uma aplicação web simples e interativa de **catálogo e filtragem de cartas**.  
