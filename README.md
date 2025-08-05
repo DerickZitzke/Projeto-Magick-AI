@@ -60,7 +60,7 @@ O usuário pode filtrar cartas por **categoria** e **preço máximo**, visualiza
 
 1. **Clone este repositório**
    ```bash
-   git clone https://github.com/seu-usuario/magick-ia.git
+   git clone https://github.com/DerickZitzke/Projeto-Magick-AI
 Abra o index.html no seu navegador
 
 Filtre e compre cartas mágicas!
